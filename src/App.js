@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Vehicle from './Vehicle/vehicle';
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+      <Vehicle VehicleType="Car" Name="Altroz" Manufacturer="Tata" FuelType="Petrol" />
+      <Vehicle VehicleType="Car" Name="Seltos" Manufacturer="Kia" FuelType="Diesel" />
     </div>
   );
 }
