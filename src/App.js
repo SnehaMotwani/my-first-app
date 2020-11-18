@@ -36,7 +36,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App container-fluid">
         <h1>List of Vehicles</h1>
         <Vehicle VehicleType={this.state.vehicles[0].VehicleType} Name={this.state.vehicles[0].Name} Manufacturer={this.state.vehicles[0].Manufacturer} FuelType={this.state.vehicles[0].FuelType} />
 

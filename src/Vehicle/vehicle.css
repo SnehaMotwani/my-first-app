@@ -1,8 +1,11 @@
 .car{
     display: inline-block;
+    padding: 5px 10px 5px 15px;
     margin: 10px;
-    border: 2px solid #ccc;
-    box-shadow: 0 2px 2px #ccc;
-    width: 200px;
-    padding: 20px;
+    text-align: left;
+    color: blanchedalmond; 
+    background-color: cadetblue;
+    box-shadow: 0 5px 10px rgb(60, 2,114);
+    max-width: 23%;
+    
   }
